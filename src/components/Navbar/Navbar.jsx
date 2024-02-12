@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux';
 import { LanguageContext } from '../../Context/language';
 
 const navigation = [
-  { name: 'Dashboard', href: '/', current: true },
+  { name: 'Movie Time', href: '/', current: true },
   { name: 'Movies', href: 'movies', current: false },
   { name: 'Favourites', href: 'favourites', current: false },
   // { name: 'Details', href: 'Details/:id', current: false },
